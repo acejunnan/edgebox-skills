@@ -1,0 +1,12 @@
+# Keep the public knowledge package free of generated implementation and secrets.
+private/
+work/
+generated/
+dist/
+.env
+*.key
+*.pem
+*.zip
+*.exe
+__pycache__/
+*.pyc

@@ -1,0 +1,4 @@
+interface:
+  display_name: "EdgeBox 部署与恢复"
+  short_description: "Deploy residential egress with SSH recovery and rollback."
+  default_prompt: "使用 $edgebox-deploy，先检查我的准备情况和两端现状，给出可回退的部署计划；未获明确授权前只做只读检查。"
