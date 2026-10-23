@@ -12,7 +12,7 @@ Do not modify an existing application or publish generated code merely because t
 
 ## Choose the requested mode
 
-- **Preparation / shopping:** use the repository's human guide and author notes if available. Prices, vendors, plans, purchase links and experience text are author-maintained; do not supply or replace them unless explicitly asked to research or draft those parts. Missing commercial content does not block technical inspection of existing equipment. Do not purchase anything. The guide is optional context, not a deployment dependency.
+- **Preparation / shopping:** use the repository's human guide if available. Prices, vendors, plans, purchase links and experience text are author-maintained; do not supply or replace them unless explicitly asked to research or draft those parts. Missing commercial content does not block technical inspection of existing equipment. Do not purchase anything. The guide is optional context, not a deployment dependency.
 - **Preflight / plan:** inspect the actual authorized targets read-only, identify gaps and conflicts, then produce a concrete change-and-recovery plan. No network mutation is authorized by a preflight request.
 - **Build / deploy:** load [blueprint](references/blueprint.md), [deployment procedure](references/deployment.md), and [acceptance criteria](references/acceptance.md). Generate an implementation only if needed and authorized, then deploy within the user's confirmed scope.
 - **Diagnosis / recovery:** load the deployment and acceptance references, inspect ownership and current access before touching networking, and prioritize restoring management and ordinary WAN. Do not turn diagnosis into a reinstall.
