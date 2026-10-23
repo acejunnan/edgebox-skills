@@ -12,12 +12,22 @@ Do not modify an existing application or publish generated code merely because t
 
 ## Choose the requested mode
 
-- **Preparation / shopping:** use the repository's human guide if available, verify current provider prices and stock from official sources, and distinguish estimates from offers. Do not purchase anything. The guide is optional context, not a deployment dependency.
+- **Preparation / shopping:** use the repository's human guide and author notes if available. Prices, vendors, plans, purchase links and experience text are author-maintained; do not supply or replace them unless explicitly asked to research or draft those parts. Missing commercial content does not block technical inspection of existing equipment. Do not purchase anything. The guide is optional context, not a deployment dependency.
 - **Preflight / plan:** inspect the actual authorized targets read-only, identify gaps and conflicts, then produce a concrete change-and-recovery plan. No network mutation is authorized by a preflight request.
 - **Build / deploy:** load [blueprint](references/blueprint.md), [deployment procedure](references/deployment.md), and [acceptance criteria](references/acceptance.md). Generate an implementation only if needed and authorized, then deploy within the user's confirmed scope.
 - **Diagnosis / recovery:** load the deployment and acceptance references, inspect ownership and current access before touching networking, and prioritize restoring management and ordinary WAN. Do not turn diagnosis into a reinstall.
 
 Skill invocation alone is not permission to change a remote network. Existing explicit user authorization for the named targets persists; do not ask again for the same approved reversible steps. Purchases, flashing, removal of unrelated services, credential disclosure, and public publishing are separate scope decisions.
+
+## Respect author-maintained content
+
+Preserve the author's introduction, buying recommendations, prices and experience claims.
+Treat marked empty fields as intentionally awaiting the author, not a request to invent content.
+When asked to polish, change wording without altering commercial facts or conclusions.
+Research current offers only when specifically requested, label verified findings separately,
+and do not silently promote them to author-approved recommendations. If an author choice
+conflicts with technical prerequisites or recoverability, explain the specific conflict and
+seek clarification; do not overwrite the text or waive the required technical safeguards.
 
 ## Collect facts, not invented defaults
 
