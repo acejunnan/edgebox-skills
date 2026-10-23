@@ -29,10 +29,10 @@ AI 根据实际环境在你的私人工作目录中生成实现，先验证管�
 
 ## 然后把任务交给 AI
 
-**不支持 Skill 的 AI：**复制 [通用启动提示词](START-PROMPT.zh-CN.md)，并把本仓库文件夹提供给它读取。
+**不支持 Skill 的 AI：** 复制 [通用启动提示词](START-PROMPT.zh-CN.md)，并把本仓库文件夹提供给它读取。
 该提示词也能单独粘贴使用，但提供完整 Skill 及其引用文件能保留更详细的部署和验收要求。
 
-**支持 Skill 的 AI：**把整个 [skills/edgebox-deploy](skills/edgebox-deploy/) 文件夹导入该工具支持的 Skill 位置，
+**支持 Skill 的 AI：** 把整个 [skills/edgebox-deploy](https://github.com/acejunnan/edgebox-skills/tree/main/skills/edgebox-deploy) 文件夹导入该工具支持的 Skill 位置，
 保留 `SKILL.md`、`agents/` 和 `references/` 的相对路径。不同工具的导入位置按各自文档确认。
 然后输入：
 
